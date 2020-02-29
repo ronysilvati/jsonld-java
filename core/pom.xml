@@ -65,6 +65,15 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+			      <groupId>org.evosuite.plugins</groupId>
+			      <artifactId>evosuite-maven-plugin</artifactId>
+			      <version>1.0.6</version>
+			      <executions><execution>
+			         <goals> <goal> prepare </goal> </goals>
+			         <phase> process-test-classes </phase>
+			      </execution></executions>
+			  </plugin>
 			<!-- Shade Google Guava into jsonld-java to avoid downstream incompatibilities 
 				caused by Guava's fast major release cycles. -->
 			<plugin>
