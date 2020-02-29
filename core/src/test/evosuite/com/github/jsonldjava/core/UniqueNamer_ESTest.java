@@ -18,7 +18,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
  /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se após a geração de um novo
    * nome sem prefixo, o mesmo realmente possui o nome esperado
@@ -38,7 +39,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao solicitar a criação
    * de um novo nome, passando um prefixo null como string,
@@ -57,7 +59,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
   
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao solicitar a geração de
    * um novo nome, através do método 'getName', sem informar 
@@ -77,7 +80,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao informar um nome
    * inexistente para o método isNamed, a instância realmente
@@ -93,7 +97,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao chamar o método
    * getName na mesma instância, mais de uma vez, o retorno 
@@ -113,7 +118,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao chamar o método
    * getName sem parâmetros, um novo nome é gerado.
@@ -129,7 +135,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao instanciar UniqueNamer
    * mas não solicitar a geração de um novo nome, a lista
@@ -145,7 +152,8 @@ public class UniqueNamer_ESTest extends UniqueNamer_ESTest_scaffolding {
 
   /**
    * COMPREENSÍVEL: Sim
-   * HUMANOS PODERIAM GERAR O TESTE: Sim
+   * DE FÁCIL CRIAÇÃO: Sim
+   * IMPORTANTE PARA O CONTEXTO: Sim
    * ----------------------------------------------------------
    * DESCRIÇÃO: O teste verifica se ao chamar o método
    * close, um novo objeto-cópia realmente é gerado.
